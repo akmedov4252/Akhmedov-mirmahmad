@@ -131,10 +131,10 @@ const grammarTopics = [
             { type: "multiple-choice", question: "___ are my keys (near me).", options: ["This", "That", "These"], answer: "These" },
             { type: "multiple-choice", question: "___ is your bag over there.", options: ["This", "That", "These"], answer: "That" },
             { type: "multiple-choice", question: "___ are my friends over there.", options: ["This", "That", "Those"], answer: "Those" },
-            { type: "multiple-choice", question: "Look at ___ beautiful flowers!", options: ["this", "that", "these"], answer: "these" },
-            { type: "multiple-choice", question: "___ car is very fast.", options: ["This", "That", "Those"], answer: "That" },
+            { type: "multiple-choice", question: "Look at ___ beautiful flowers here!", options: ["this", "that", "these"], answer: "these" },
+            { type: "multiple-choice", question: "___ car over there is very fast.", options: ["This", "That", "Those"], answer: "That" },
             { type: "multiple-choice", question: "Muhammad said, '___ is my sister.' (pointing nearby)", options: ["This", "That", "These"], answer: "This" },
-            { type: "multiple-choice", question: "___ books on the shelf are old.", options: ["This", "That", "Those"], answer: "Those" },
+            { type: "multiple-choice", question: "___ books over there are old.", options: ["This", "That", "Those"], answer: "Those" },
             { type: "fill-blank", question: "___ house right here is where I live.", answer: "This" },
             { type: "fill-blank", question: "Look at ___ mountains far away - they're very high.", answer: "those" }
         ]
@@ -365,15 +365,15 @@ const grammarTopics = [
         title: "Needn't have vs Didn't need to",
         description: "unnecessary actions in the past",
         questions: [
-            { type: "multiple-choice", question: "I ___ buy milk because we already had some.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
+            { type: "multiple-choice", question: "I ___ bought milk because we already had some.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
             { type: "multiple-choice", question: "She ___ go to the bank because she had enough cash.", options: ["needn't have", "didn't need to", "needn't to"], answer: "didn't need to" },
-            { type: "multiple-choice", question: "We ___ hurry because the train was late.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
-            { type: "multiple-choice", question: "He ___ worry about the test because it was easy.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
+            { type: "multiple-choice", question: "We ___ hurry because the train was late.", options: ["needn't have", "didn't need to", "needn't to"], answer: "didn't need to" },
+            { type: "multiple-choice", question: "He ___ worry about the test because it was easy.", options: ["needn't have", "didn't need to", "needn't to"], answer: "didn't need to" },
             { type: "multiple-choice", question: "They ___ cook because we ordered pizza.", options: ["needn't have", "didn't need to", "needn't to"], answer: "didn't need to" },
-            { type: "multiple-choice", question: "Muhammad ___ study so hard for the easy exam.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
-            { type: "multiple-choice", question: "You ___ bring an umbrella because it didn't rain.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
+            { type: "multiple-choice", question: "Muhammad ___ studied so hard for the easy exam.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
+            { type: "multiple-choice", question: "You ___ brought an umbrella because it didn't rain.", options: ["needn't have", "didn't need to", "needn't to"], answer: "needn't have" },
             { type: "multiple-choice", question: "I ___ call him because he called me first.", options: ["needn't have", "didn't need to", "needn't to"], answer: "didn't need to" },
-            { type: "fill-blank", question: "She ___ buy tickets; they were already free.", answer: "needn't have" },
+            { type: "fill-blank", question: "She ___ bought tickets; they were already free.", answer: "needn't have" },
             { type: "fill-blank", question: "We ___ rush; we had plenty of time.", answer: "didn't need to" }
         ]
     },
@@ -1969,7 +1969,7 @@ const a1Unit2Override = {
         },
         {
             type: "multiple-choice",
-            question: "Choose the correct translation: кор",
+            question: "Choose the correct translation: касб",
             options: ["job", "family", "country"],
             answer: "job"
         },
@@ -2344,7 +2344,7 @@ grammar: [
         },
         {
             type: "multiple-choice",
-            question: "Choose the correct translation: корхона",
+        question: "Choose the correct translation: идора",
             options: ["home", "office", "school"],
             answer: "office"
         }
@@ -2502,7 +2502,7 @@ grammar: [
         },
         {
             type: "multiple-choice",
-            question: "Choose the correct translation: меҳмонхона",
+            question: "Choose the correct translation: ҳуҷраи меҳмон",
             options: ["living room", "bedroom", "kitchen"],
             answer: "living room"
         },
@@ -3037,7 +3037,7 @@ grammar: [
     },
     {
         type: "multiple-choice",
-        question: "Choose the correct translation: баъзан",
+        question: "Choose the correct translation: гоҳ-гоҳ",
         options: ["sometimes", "usually", "always"],
         answer: "sometimes"
     },
@@ -3103,7 +3103,7 @@ grammar: [
     {
         type: "fill-blank",
         question: "Дар офис афсарон нестанд. → ______",
-        answer: ["There are not officers in the office.", "There aren't officers in the office."]
+        answer: ["There are no officers in the office.", "There aren't any officers in the office."]
     },
     {
         type: "fill-blank",
@@ -3332,13 +3332,13 @@ grammar: [
     },
     {
         type: "multiple-choice",
-        question: "They ___ not work yesterday.",
+        question: "They ___ work yesterday.",
         options: ["did", "did not", "does"],
         answer: "did not"
     },
     {
         type: "multiple-choice",
-        question: "He ___ not visit the office last week.",
+        question: "He ___ visit the office last week.",
         options: ["did", "did not", "does"],
         answer: "did not"
     },
@@ -3802,8 +3802,8 @@ grammar: [
         {
             type: "multiple-choice",
             question: "Choose the correct translation: акс гирифтан",
-            options: ["take", "see", "visit"],
-            answer: "take"
+            options: ["take photos", "see", "visit"],
+            answer: "take photos"
         }
     ],
     writing: [
@@ -3865,6 +3865,139 @@ const unitFlowState = {
     unit: null,
     type: null
 };
+
+const a1UnitFocusMap = {
+    1: {
+        grammar: "Articles (a / an)",
+        vocabulary: "Personal profile words",
+        writing: "Plural nouns"
+    },
+    2: {
+        grammar: "Verb to be (affirmative / negative / questions)",
+        vocabulary: "Family and relationships",
+        writing: "Basic family sentences"
+    },
+    3: {
+        grammar: "Possessive adjectives",
+        vocabulary: "Jobs and workplace",
+        writing: "Possession sentences"
+    },
+    4: {
+        grammar: "Possessives ('s / s')",
+        vocabulary: "Daily routine words",
+        writing: "Possessive writing"
+    },
+    5: {
+        grammar: "Present Simple",
+        vocabulary: "Home and rooms",
+        writing: "Routine sentences"
+    },
+    6: {
+        grammar: "Do / Does questions",
+        vocabulary: "Actions and skills",
+        writing: "Questions and negatives"
+    },
+    7: {
+        grammar: "WH-questions",
+        vocabulary: "Question words",
+        writing: "Question formation"
+    },
+    8: {
+        grammar: "There is / There are",
+        vocabulary: "Frequency adverbs",
+        writing: "Existence sentences"
+    },
+    9: {
+        grammar: "Was / Were",
+        vocabulary: "Food and drinks",
+        writing: "Past be statements"
+    },
+    10: {
+        grammar: "Past Simple",
+        vocabulary: "Adjectives",
+        writing: "Past actions"
+    },
+    11: {
+        grammar: "How much / How many / Can",
+        vocabulary: "Clothes and colors",
+        writing: "Quantity and ability"
+    },
+    12: {
+        grammar: "Some / Any",
+        vocabulary: "Travel vocabulary",
+        writing: "Would like requests"
+    }
+};
+
+function getMostCommonTopicFromQuestions(questions) {
+    if (!Array.isArray(questions) || questions.length === 0) return null;
+
+    const topicCounts = new Map();
+    questions.forEach(question => {
+        const topic = question && typeof question.topic === 'string' ? question.topic.trim() : '';
+        if (!topic) return;
+        topicCounts.set(topic, (topicCounts.get(topic) || 0) + 1);
+    });
+
+    if (topicCounts.size === 0) return null;
+
+    let bestTopic = null;
+    let bestCount = -1;
+    topicCounts.forEach((count, topic) => {
+        if (count > bestCount) {
+            bestTopic = topic;
+            bestCount = count;
+        }
+    });
+
+    return bestTopic;
+}
+
+function inferWritingFocus(questions) {
+    if (!Array.isArray(questions) || questions.length === 0) {
+        return 'Sentence writing';
+    }
+
+    const firstQuestion = questions.find(
+        question => question && typeof question.question === 'string' && question.question.trim()
+    );
+
+    if (!firstQuestion) return 'Sentence writing';
+
+    const text = firstQuestion.question;
+    const lower = text.toLowerCase();
+
+    if (text.includes('→')) return 'Translation writing';
+    if (text.includes('___') && /(right now|today|now)/i.test(text)) return 'Verb to be patterns';
+    if (text.includes('___') && /(every day|every morning|in the evening|on weekends)/i.test(text)) {
+        return 'Present Simple patterns';
+    }
+    if (lower.includes('would you like') || lower.includes("i'd like") || lower.includes('i would like')) {
+        return 'Requests with would like';
+    }
+
+    return 'Sentence completion';
+}
+
+function getUnitFocusSummary(level, unitNumber, unitItem) {
+    const normalizedLevel = String(level || '').toUpperCase();
+
+    if (normalizedLevel === 'A1' && a1UnitFocusMap[unitNumber]) {
+        return a1UnitFocusMap[unitNumber];
+    }
+
+    const grammarFocus =
+        getMostCommonTopicFromQuestions(unitItem && unitItem.grammar) || 'Mixed grammar topics';
+    const vocabularyFocus =
+        getMostCommonTopicFromQuestions(unitItem && unitItem.vocabulary) || 'Mixed vocabulary topics';
+    const writingFocus = inferWritingFocus(unitItem && unitItem.writing);
+
+    return {
+        grammar: grammarFocus,
+        vocabulary: vocabularyFocus,
+        writing: writingFocus
+    };
+}
 
 function buildUnitQuestions() {
     if (Object.keys(unitQuestions).length > 0) {
@@ -3942,29 +4075,29 @@ function buildUnitQuestions() {
                 'The students': 'are',
                 'The children': 'are'
             };
-            const verbs = [
-                ['play', 'plays'],
-                ['study', 'studies'],
-                ['watch', 'watches'],
-                ['read', 'reads'],
-                ['work', 'works'],
-                ['live', 'lives'],
-                ['drink', 'drinks'],
-                ['write', 'writes'],
-                ['speak', 'speaks'],
-                ['go', 'goes']
+            const beComplements = [
+                'at home right now.',
+                'in the office today.',
+                'in the park right now.',
+                'at school now.',
+                'on time for class.',
+                'ready for duty.',
+                'from Tajikistan.',
+                'very busy today.',
+                'happy today.',
+                'in this city now.'
             ];
-            const tails = [
-                'at home.',
-                'English every day.',
-                'in the park.',
-                'to school by bus.',
-                'books in the evening.',
-                'in an office.',
-                'in this city.',
-                'water every morning.',
-                'letters to friends.',
-                'very well.'
+            const verbTemplates = [
+                { base: 'go', third: 'goes', rest: 'to school by bus every day.' },
+                { base: 'study', third: 'studies', rest: 'English every day.' },
+                { base: 'watch', third: 'watches', rest: 'TV in the evening.' },
+                { base: 'read', third: 'reads', rest: 'books at night.' },
+                { base: 'work', third: 'works', rest: 'in an office every day.' },
+                { base: 'live', third: 'lives', rest: 'in this city.' },
+                { base: 'drink', third: 'drinks', rest: 'water every morning.' },
+                { base: 'write', third: 'writes', rest: 'emails to friends.' },
+                { base: 'speak', third: 'speaks', rest: 'English very well.' },
+                { base: 'play', third: 'plays', rest: 'football on weekends.' }
             ];
 
             for (let i = 0; i < 10; i++) {
@@ -3975,21 +4108,21 @@ function buildUnitQuestions() {
                 vocabulary.push({ ...vocabularyPool[vocabularyIndex] });
 
                 const subject = subjects[(unit + i) % subjects.length];
-                const verbPair = verbs[((unit * 2) + i) % verbs.length];
-                const tail = tails[((unit * 3) + i) % tails.length];
+                const beComplement = beComplements[((unit * 3) + i) % beComplements.length];
+                const verbTemplate = verbTemplates[((unit * 2) + i) % verbTemplates.length];
                 const isThirdSingular = ['He', 'She', 'Tom', 'My brother'].includes(subject);
 
                 if (i % 2 === 0) {
                     writing.push({
                         type: 'fill-blank',
-                        question: `${subject} ___ ${tail}`,
+                        question: `${subject} ___ ${beComplement}`,
                         answer: beForms[subject]
                     });
                 } else {
                     writing.push({
                         type: 'fill-blank',
-                        question: `${subject} ___ ${tail}`,
-                        answer: isThirdSingular ? verbPair[1] : verbPair[0]
+                        question: `${subject} ___ ${verbTemplate.rest}`,
+                        answer: isThirdSingular ? verbTemplate.third : verbTemplate.base
                     });
                 }
             }
@@ -4161,10 +4294,14 @@ function showLevelDetail(level) {
         const unitCard = document.createElement('div');
         unitCard.className = 'topic-card';
         enableKeyboardActivation(unitCard);
+        const focus = getUnitFocusSummary(level, item.unit, item);
         unitCard.innerHTML = `
             <div class="topic-number">${item.unit}</div>
             <h3>Unit ${item.unit}</h3>
             <p>${level} unit test set</p>
+            <p class="unit-focus-line"><strong>Grammar:</strong> ${focus.grammar}</p>
+            <p class="unit-focus-line"><strong>Vocabulary:</strong> ${focus.vocabulary}</p>
+            <p class="unit-focus-line"><strong>Writing:</strong> ${focus.writing}</p>
             <div class="topic-info">
                 <span><i class="fas fa-question-circle"></i> 30 tasks</span>
                 <span><i class="fas fa-layer-group"></i> Grammar/Vocabulary/Writing</span>
